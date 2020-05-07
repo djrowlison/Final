@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+    
+    html, body {
+        width: 100vw;
+        min-height: 100vh;
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    header {
+        display: block;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    figure {
+        background-color:  rgb(251, 255, 0);
+        border: 2px solid black;
+        width: 100%;
+        padding: 15px;
+        box-shadow: black 5px 5px 5px;
+    }
+    
+    figcaption {
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        font-size: 120%;
+        padding-bottom: .25em;
+    } 
+    
+    table {
+        border-collapse: collapse;
+        border: 2px solid #000000;
+        margin: 10px auto;
+        white-space: wrap;
+        width: 90%;
+        border-radius: 7px;
+        box-shadow: black 5px 5px 5px;
+    }
+    
+    thead {
+        background-color: black;
+        color: rgb(251, 255, 0);
+    }
+    
+    th, td {
+        border: 3px solid rgb(190, 12, 12);
+        padding: .6em .6em .6em .6em;
+        text-align: center;
+    }
+    
+    th:first-child, td:first-child {
+        text-align: left;
+    }
+
+    .days {
+        font-size: 1.4em;
+        font-style: bold;
+    }
+
+    @media screen and (min-width: 768px) {
+        figure {
+            background-color:  rgb(251, 255, 0);
+            border: 2px solid black;
+            width: 50%;
+            padding: 15px;
+            box-shadow: black 5px 5px 5px;
+    }
+}
